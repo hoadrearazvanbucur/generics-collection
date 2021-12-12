@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "colectii-generice-implementare/1.0.0": {
+        "dependencies": {
+          "generiscs-collection": "1.0.0"
+        },
+        "runtime": {
+          "colectii-generice-implementare.dll": {}
+        }
+      },
+      "generiscs-collection/1.0.0": {
+        "runtime": {
+          "generiscs-collection.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "colectii-generice-implementare/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "generiscs-collection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

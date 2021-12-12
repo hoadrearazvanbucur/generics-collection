@@ -1,0 +1,16 @@
+D:\1_PROGRAMARE\C#\Abstractizare\colectii-generice-implementare\colectii-generice-implementare\obj\Debug\netcoreapp3.1\colectii-generice-implementare.csprojAssemblyReference.cache
+D:\1_PROGRAMARE\C#\Abstractizare\colectii-generice-implementare\colectii-generice-implementare\obj\Debug\netcoreapp3.1\colectii-generice-implementare.AssemblyInfoInputs.cache
+D:\1_PROGRAMARE\C#\Abstractizare\colectii-generice-implementare\colectii-generice-implementare\obj\Debug\netcoreapp3.1\colectii-generice-implementare.AssemblyInfo.cs
+D:\1_PROGRAMARE\C#\Abstractizare\colectii-generice-implementare\colectii-generice-implementare\obj\Debug\netcoreapp3.1\colectii-generice-implementare.csproj.CoreCompileInputs.cache
+D:\1_PROGRAMARE\C#\Abstractizare\colectii-generice-implementare\colectii-generice-implementare\bin\Debug\netcoreapp3.1\colectii-generice-implementare.exe
+D:\1_PROGRAMARE\C#\Abstractizare\colectii-generice-implementare\colectii-generice-implementare\bin\Debug\netcoreapp3.1\colectii-generice-implementare.deps.json
+D:\1_PROGRAMARE\C#\Abstractizare\colectii-generice-implementare\colectii-generice-implementare\bin\Debug\netcoreapp3.1\colectii-generice-implementare.runtimeconfig.json
+D:\1_PROGRAMARE\C#\Abstractizare\colectii-generice-implementare\colectii-generice-implementare\bin\Debug\netcoreapp3.1\colectii-generice-implementare.runtimeconfig.dev.json
+D:\1_PROGRAMARE\C#\Abstractizare\colectii-generice-implementare\colectii-generice-implementare\bin\Debug\netcoreapp3.1\colectii-generice-implementare.dll
+D:\1_PROGRAMARE\C#\Abstractizare\colectii-generice-implementare\colectii-generice-implementare\bin\Debug\netcoreapp3.1\colectii-generice-implementare.pdb
+D:\1_PROGRAMARE\C#\Abstractizare\colectii-generice-implementare\colectii-generice-implementare\bin\Debug\netcoreapp3.1\generiscs-collection.dll
+D:\1_PROGRAMARE\C#\Abstractizare\colectii-generice-implementare\colectii-generice-implementare\bin\Debug\netcoreapp3.1\generiscs-collection.pdb
+D:\1_PROGRAMARE\C#\Abstractizare\colectii-generice-implementare\colectii-generice-implementare\obj\Debug\netcoreapp3.1\colectii-generice-implementare.csproj.CopyComplete
+D:\1_PROGRAMARE\C#\Abstractizare\colectii-generice-implementare\colectii-generice-implementare\obj\Debug\netcoreapp3.1\colectii-generice-implementare.dll
+D:\1_PROGRAMARE\C#\Abstractizare\colectii-generice-implementare\colectii-generice-implementare\obj\Debug\netcoreapp3.1\colectii-generice-implementare.pdb
+D:\1_PROGRAMARE\C#\Abstractizare\colectii-generice-implementare\colectii-generice-implementare\obj\Debug\netcoreapp3.1\colectii-generice-implementare.genruntimeconfig.cache

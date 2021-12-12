@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "T32i8XDZZvJrCbZec2CvE6eP/KNoLIX4xa0LAqcZlA7tGISkoUvWQr1IcaBKAM4YCtA2itI2WYZPpRL0unUnsw==",
+  "success": true,
+  "projectFilePath": "D:\\1_PROGRAMARE\\C#\\Abstractizare\\colectii-generice-implementare\\generiscs-collection\\generiscs-collection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hoadrea Razvan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Hoadrea Razvan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
