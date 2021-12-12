@@ -33,7 +33,7 @@ namespace colectii_generice_implementare
                 return false;
             return true;
         }
-        public int CompareTo(Persoana other) => ordineAlf(other.Nume, this.nume) == true ? 1 : 0;
+        public int CompareTo(Persoana other) => this.nume.CompareTo(other.nume);
 
         public string Nume
         {

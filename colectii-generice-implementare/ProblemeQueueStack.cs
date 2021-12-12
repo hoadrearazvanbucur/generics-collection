@@ -312,5 +312,48 @@ namespace colectii_generice_implementare
             return c;
         }
 
+        /*
+        
+         16.Sa se verifice daca un text este bine balansat
+
+        */
+
+        public bool corectBalansat(string text)
+        {
+            Stiva<char> paranteza1 = new Stiva<char>();
+            Stiva<char> paranteza2 = new Stiva<char>();
+            Stiva<char> paranteza3 = new Stiva<char>();
+
+            for (int i = 0; i < text.Length; i++)
+            {
+                //()
+                if (text[i].Equals('(') == true)
+                    paranteza1.push('(');
+                if (text[i].Equals(')') == true)
+                    if (paranteza1.isEmpty() == true)
+                        return false;
+                    else
+                        paranteza1.pop();
+                //[]
+                if (text[i].Equals('[') == true)
+                    paranteza2.push('[');
+                if (text[i].Equals(']') == true)
+                    if (paranteza2.isEmpty() == true)
+                        return false;
+                    else
+                        paranteza2.pop();
+                //{}
+                if (text[i].Equals('{') == true)
+                    paranteza3.push('{');
+                if (text[i].Equals('}') == true)
+                    if (paranteza3.isEmpty() == true)
+                        return false;
+                    else
+                        paranteza3.pop();
+            }
+            if (paranteza1.isEmpty() == true && paranteza2.isEmpty() == true & paranteza3.isEmpty() == true)
+                return true;
+            return false;
+        }
     }
 }

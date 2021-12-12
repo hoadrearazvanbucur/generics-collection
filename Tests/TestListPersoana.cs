@@ -23,15 +23,15 @@ namespace Tests
 
         public void sort()
         {
-            for (int i = 5; i >= 1; i--)
-                this.masini.adaugare(new Persoana($"test{i},{i}"));
-            outputHelper.WriteLine(masini.afisare() + "\n\n");
-            this.masini.sort(new ComparatorNume());
-            for (int i = 0; i < 5; i++)
-                Assert.True(masini.obtine(i).Data.ToString() == $"test{i + 1},{i + 1}");
-            outputHelper.WriteLine(masini.afisare() + "\n\n");
-            for (int i = 0; i < 5; i++)
-                this.masini.stergere(0);
+            //for (int i = 5; i >= 1; i--)
+            //    this.masini.adaugare(new Persoana($"test{i},{i}"));
+            //outputHelper.WriteLine(masini.afisare() + "\n\n");
+            //this.masini.sort(new ComparatorNume());
+            //for (int i = 0; i < 5; i++)
+            //    Assert.True(masini.obtine(i).Data.ToString() == $"test{i + 1},{i + 1}");
+            //outputHelper.WriteLine(masini.afisare() + "\n\n");
+            //for (int i = 0; i < 5; i++)
+            //    this.masini.stergere(0);
         }
 
 

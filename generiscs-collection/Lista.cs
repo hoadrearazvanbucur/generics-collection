@@ -104,7 +104,7 @@ namespace generiscs_collection
         {
             Node<T> save = head;
             int k = 0;
-            if (index != 0)
+            if (index != 0 && save != null)
             {
                 while (k < index - 1)
                 {
@@ -145,8 +145,8 @@ namespace generiscs_collection
             Node<T> save = head;
             while (save != null)
             {
-                if (save.Data.ToString() == data.ToString())
-                    return true;
+                if (save.Data.CompareTo(data)==0)
+                      return true;
                 save = save.Next;
             }
             return false;

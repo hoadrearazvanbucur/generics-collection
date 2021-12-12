@@ -4,7 +4,7 @@ using System.Text;
 
 namespace colectii_generice_implementare
 {
-    public class ComparatorNume : Comparer<Persoana>
+    public class ComparatorNume : Comparer<Masina>
     {
         public bool ordineAlf(string a, string b)
         {
@@ -21,6 +21,6 @@ namespace colectii_generice_implementare
             return true;
         }
 
-        public override int Compare(Persoana x, Persoana y) => ordineAlf(x.Nume, y.Nume) == true ? 1 : 0;
+        public override int Compare(Masina x, Masina y) => ordineAlf(x.Marca, y.Marca) == true ? 1 : 0;
     }
 }

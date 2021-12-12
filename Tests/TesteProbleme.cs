@@ -152,7 +152,7 @@ namespace Tests
             Coada<int> c = new Coada<int>();
             c.push(1); c.push(2); c.push(3);
             Assert.True(probleme.Palindrom("ana"));
-            Assert.False(probleme.Palindrom("anaa"));
+            Assert.False(probleme.Palindrom("aanasa"));
         }
 
         [Fact]
@@ -162,5 +162,44 @@ namespace Tests
             outputHelper.WriteLine(c.afisare());
             Assert.True(c.peek().Data.Equals('a'));
         }
+
+        [Fact]
+        public void test()
+        {
+            string x = "abcdeffedcba";
+            Coada<char> a = new Coada<char>();
+            Stiva<char> b = new Stiva<char>();
+            for (int i = 0; i < x.Length; i++)
+                if ((x[i] >= 'a' && x[i] <= 'z') || (x[i] >= 'A' && x[i] <= 'Z'))
+                {
+                    a.push(x[i]);
+                    b.push(x[i]);
+                }
+            outputHelper.WriteLine(a.afisare() + "\n");
+            outputHelper.WriteLine(b.afisare() + "\n");
+            int k = 1, ok = a.size(),da=0;
+            while (k++ <= ok / 2)
+            {
+                if (a.pop().Data != b.peek().Data)
+                    da = 1;
+                    outputHelper.WriteLine(a.pop().Data.ToString() + "   " + b.peek().Data);
+
+            }
+            if (da == 0)
+                outputHelper.WriteLine("DA");
+            else
+                outputHelper.WriteLine("NU");
+        }
+
+        [Fact]
+
+        public void corectBalansat()
+        {
+            Assert.True(probleme.corectBalansat("ds[a(d{h}d)h]wjkafw"));
+            Assert.True(probleme.corectBalansat("fwhajk[]awu()yewaui"));
+            Assert.False(probleme.corectBalansat("fwau)(i[]eawoijsdka"));
+            Assert.False(probleme.corectBalansat("dwi(oq[wi}ue)bdjw"));
+        }
+
     }
 }
