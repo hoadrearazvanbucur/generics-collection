@@ -23,13 +23,13 @@ namespace colectii_generice_implementare
         public int CompareTo(Masina other)
         {
             if (this.pret > other.pret)
-                     return 1;
+                return 1;
 
             else if (this.pret < other.pret)
             {
                 return -1;
             }
-              
+
             return 0;
         }
 

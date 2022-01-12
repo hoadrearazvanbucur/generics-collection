@@ -5,7 +5,6 @@ using System.Text;
 namespace generiscs_collection
 {
     public class Lista<T> : ILista<T> where T :IComparable<T>
-
     {
         private Node<T> head = null;
 

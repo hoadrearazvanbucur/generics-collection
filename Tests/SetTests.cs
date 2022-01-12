@@ -56,6 +56,21 @@ namespace Tests
             set.adaugare(m6, new ComparatorNume());
             outputHelper.WriteLine("Afisarea 2 (MARCA ALFABETIC)\n" + set.afisare());
         }
-            
+
+        [Fact]
+
+        public void stergere()
+        {
+            Masina m1 = new Masina("a,1");
+            Masina m2 = new Masina("b,2");
+            Masina m3 = new Masina("c,3");
+            set.adaugare(m1);
+            set.adaugare(m2);
+            set.adaugare(m3);
+            outputHelper.WriteLine(set.afisare() + "\n\n");
+            set.stergere(m3);
+            outputHelper.WriteLine(set.afisare() + "\n\n");
+        }
+
     }
 }

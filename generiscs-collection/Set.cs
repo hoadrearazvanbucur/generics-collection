@@ -13,8 +13,6 @@ namespace generiscs_collection
             this.lista = new Lista<T>();
         }
 
-
-
         public void adaugare(T data)
         {
             Node<T> it = lista.Head;
@@ -30,7 +28,6 @@ namespace generiscs_collection
                     this.lista.seteaza(data, k);
                 }
         }
-
         public void adaugare(T data, Comparer<T> comparer)
         {
             Node<T> it = lista.Head;
@@ -47,8 +44,10 @@ namespace generiscs_collection
                 }
         }
 
-
-
+        public void stergere(T data)
+        {
+            this.lista.stergere(this.lista.pozitieData(data)    );
+        }        
 
 
         public bool exista(T data)

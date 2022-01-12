@@ -69,7 +69,7 @@ namespace Tests
             for(int i=5;i>=1;i--)
             this.masini.adaugare(new Masina($"test{i},{i}"));
             outputHelper.WriteLine(masini.afisare() + "\n\n");
-            this.masini.sort( new ComparatorMarcacs());
+            //this.masini.sort( new ComparatorMarcacs());
             for (int i=0;i<5;i++)
             Assert.True(masini.obtine(i).Data.ToString() == $"test{i+1},{i+1}");
             outputHelper.WriteLine(masini.afisare() + "\n\n");

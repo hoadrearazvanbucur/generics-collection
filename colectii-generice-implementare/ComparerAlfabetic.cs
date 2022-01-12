@@ -1,18 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
 namespace colectii_generice_implementare
 {
-   public  class ComparatorMarcacs : IComparer<Masina>
+    public class ComparerAlfabetic : Comparer<Masina>
     {
-       
-        public  int Compare([AllowNull] Masina x, [AllowNull] Masina y) => ordineAlf(x.Marca, y.Marca) == true ? 1 : 0;
-
-
-
-
         public bool ordineAlf(string a, string b)
         {
             int d;
@@ -28,6 +21,6 @@ namespace colectii_generice_implementare
             return true;
         }
 
-        
+        public override int Compare(Masina x, Masina y) => ordineAlf(x.Marca, y.Marca) == true ? 1 : 0;
     }
 }
